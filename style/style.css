@@ -120,7 +120,9 @@ ol li
   padding: 0 0 0 4px;} 
 
 ul#menu
-{ float: right;}
+{ float: left;}
+/* Foti - This was right originally. */
+/*{ float: right;}*/
 
 ul#menu li
 { float: left;
