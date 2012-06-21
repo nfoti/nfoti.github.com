@@ -91,6 +91,11 @@ ol li
 { margin-left: auto; 
   margin-right: auto;}
 
+#site_container
+{ width: 875px;
+  margin-left: auto;
+  margin-right: auto;}
+
 /* header area */
 #header
 { background: url(back.png) repeat-x;
@@ -121,8 +126,6 @@ ol li
 
 ul#menu
 { float: left;}
-/* Foti - This was right originally. */
-/*{ float: right;}*/
 
 ul#menu li
 { float: left;
