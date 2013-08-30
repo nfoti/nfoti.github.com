@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="">
+        <title>Nick Foti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Publictions">
+    <meta name="author" content="">
+
+        <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+            <link href="/media/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/media/css/nf.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of
+            floated navbar
+            text */
+            .navbar-text.pull-right
+            {
+                float:
+                none;
+                padding-left:
+                5px;
+                padding-right:
+                5px;
+            }
+        }
+    </style>
+
+        
+            
+        
+          </head>
+
+  <body class="publications.html">
+
+    
+    <!--<div class="container" id="top">-->
+    <div class="container">
+      <!-- Just so my name is somewhere on the phone screen size. -->
+<div class="row">
+<div class="inner-fluid clearfix">
+    <div class="col-md-9 col-md-offset-3 visible-sm">
+        <span style="font-size:14px;font-weight:200;"><h2>Nick Foti</h2></span>
+    </div>
+</div>
+</div>
+
+<!-- Navigation -->
+<div class="row">
+<div class="inner-fluid clearfix">
+    <div class="col-md-9 col-md-offset-3">
+    <div class="navigation">
+        <ul class="nav nav-pills red">
+                <!--<ul class="nav nav-pills red">-->
+<li><a href="index.html">About</a></li><li><a href="publications.html">Publications</a></li><li><a href="http://cs.dartmouth.edu/~nfoti/blog">Blog</a></li><!--</ul>-->
+                <li class="visible-xs visible-sm"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Both the sidebar and content are contained in the same row -->
+<div class="row">
+<div class="inner-fluid clearfix">
+
+<!-- Sidebar -->
+<div class="col-md-3 hidden-xs hidden-sm">
+  <div class="jumbotron">
+    <h2 style="text-align:center;">Nick Foti</h2>
+    <img class="img-responsive" src="/media/images/madmen_fullbody_taupe-no-drink.jpg"
+     alt="Me" width="177" style="display:block;margin-left:auto;margin-right:auto;">
+    <h4 style="text-align:left;">Contact Info</h4>
+    <div>
+        <h5>e-mail:</h5>
+        <p style="text_size:5;">firstinitiallastname at uw dot edu</p>
+        <h5>office:</h5>
+        B-316 Padelford Hall
+    </div>
+  </div> <!-- hero-box -->
+</div> <!-- span3 hidden-phone -->
+
+<!-- Content -->
+<div class="col-md-9">
+<div class="jumbotron">
+  
+
+
+<h3>Submitted and Working Papers</h3>
+<div class="yr-text">
+  <ul>
+    <li>N. Foti, and S. Williamson.  <span
+      style="font-weight:bold;">A survey of non-exchangeable
+      priors for Bayesian nonparametric models</span>.
+      Submitted to IEEE PAMI Special Issue on Bayesian
+      Nonparametrics. <a
+      href="http://arxiv.org/abs/1211.4798">[arXiv]</a>
+
+  <!--
+    <li>N. Foti, and S. Williamson.  <span
+      style="font-weight:bold;">A unifying representation for
+      a class of dependent random measures</span>.  <a
+      href="http://arxiv.org/abs/1211.4753">[arXiv]</a>
+  -->
+  </ul>
+</div>
+
+<h3>2013</h3>
+<div class="yr-text">
+  <ul>
+      <li>N. Foti, J. Futoma, D. Rockmore, and S. Williamson.  
+      <span style="font-weight:bold;">A unifying representation 
+      for a class of dependent random measures</span>.  
+      Artificial Intelligence and Statistics 
+      (AISTATS), 2013.  
+      <span style="font-weight:bold;">Notable paper award</span>.  
+      <a href="/media/papers/aistats2013_thinned.pdf">[paper]</a>
+      <a href="/media/papers/aistats2013_thinned-supp.pdf">[supplemental]</a>
+  </ul>
+</div>
+
+<h3>2012</h3>
+<div class="yr-text">
+  <ul>
+      <li>N. Foti, and S. Williamson.  <span 
+        style="font-weight:bold;">Slice sampling normalized
+        kernel-weighted completely random measure mixture
+        models</span>.  NIPS 2012. 
+      <a href="/media/papers/nips2012.pdf">[paper]</a>
+      <a href="/media/papers/nips2012_supp.pdf">[supplemental]</a>
+      <a id="nips2012slice_link">[bibtex]</a>
+      <div class="alert" id="nips2012slice" style="display:none">
+          <a class="close">&times;</a>
+          <span style="font-family:'Courier New';color:#222222;line-height:90%">
+              @incollection{Foti:Williamson:2012,<br/>
+          title = {Slice sampling normalized kernel-weighted
+          completely random measure mixture models},<br/>
+          author = {Nicholas J. Foti and Sinead Williamson},<br/>
+          booktitle = {Advances in Neural Information Processing
+          Systems 25},<br/>
+          editor = {P. Bartlett and F.C.N. Pereira and C.J.C. Burges
+          and L. Bottou and K.Q. Weinberger},<br/>
+          pages = {2249--2257},<br/>
+          year = {2012}
+          }
+          </span>
+      </div>
+      </li>
+    <li>J.M. Hughes, N. Foti, D.C. Krakauer, and D.N. Rockmore.
+        <span style="font-weight:bold;">Quantitative patterns of stylistic influence in the evolution
+        of literature</span>.  Proceedings of the National Academy of
+        Sciences, Vol. 109, No. 20, 2012.
+        <a href="http://www.pnas.org/content/109/20/7682">[paper]</a>
+        <a id="pnas2012_link">[bibtex]</a>
+        <div class="alert" id="pnas2012" style="display:none">
+            <a class="close">&times;</a>
+            <span style="font-family:'Courier New';color:#222222;line-height:90%">
+                @article{Hughes:Foti:Krakauer:Rockmore:2012,<br/>
+                title={Quantitative patterns of stylistic influence
+                in the evolution of literature.},<br/>
+                author={Hughes, J.M. and Foti, N.J. and Krakauer,<br/>
+                D.C. and Rockmore, D.N.},<br/>
+                journal={Proc Natl Acad Sci U S A},<br/>
+                volume={109},<br/>
+                number={20},<br/>
+                pages={7682-6},<br/>
+                year={2012}
+                }
+            </span>
+        </div>
+
+    </li>
+  </ul>
+</div>
+
+<h3>2011</h3>
+<div class="yr-text">
+  <ul>
+    <li>N. Foti, J.M. Hughes, and D.N. Rockmore.  <span
+      style="font-weight:bold;">Nonparametric
+      sparsification of complex multiscale networks</span>.  
+      PLoS ONE, Vol.  6, No. 2, 2011.  
+      <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0016431">[paper]</a>
+      <a id="plosone2011_link">[bibtex]</a>
+      <div class="alert" id="plosone2011" style="display:none">
+          <a class="close">&times;</a>
+          <span style="font-family:'Courier New';color:#222222;line-height:90%">
+          @article{Foti:Hughes:Rockmore:2011,
+          author = {Foti, Nicholas J. and Hughes, James M. and
+          Rockmore, Daniel N.},<br/>
+          journal = {PLoS ONE},<br/>
+          publisher = {Public Library of Science},<br/>
+          title = {Nonparametric Sparsification of Complex Multiscale Networks},<br/>
+          year = {2011},<br/>
+          month = {02},<br/>
+          volume = {6},<br/>
+          url = {http://dx.doi.org/10.1371%2Fjournal.pone.0016431},<br/>
+          pages = {e16431},<br/>
+          number = {2} }   
+          </span>
+      </div>
+
+    </li>
+  </ul>
+</div>
+
+<h3>Workshop Papers and Posters</h3>
+<div class="yr-text">
+  <ul>
+    <li>N. Foti, and S. Williamson.  Slice sampling normalized
+      kernel-weighted completely random measure mixture models
+      (2012), Poster.  ICERM Workshop on Bayesian Nonparametrics,
+      Providence, RI.
+    </li>
+    <li>N. Foti.  Dependent random measures for latent factor
+    models (2011), Poster.  8th Workshop on Bayesian
+    Nonparametrics, Veracruz, Mexico.
+    </li>
+    <li>N. Foti, D.N. Rockmore, S. Pauls, and T. Kastelle (2009).
+      A longitudinal analysis of the World Trade Web.  15th
+      International Conference on Computing in Economics and Finance,
+      Sydney, Australia.
+    </li>
+  </ul>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    var animDur = 500;
+    $(document).ready(function(){
+        // This is what makes the x's in the bibtex boxes to slide up
+        $(".close").click(function(event){
+          //alert($(event.target).parent().attr('id'));
+          $(event.target).parent().slideUp(animDur)
+        });
+
+        // bibtex entries
+        $("#nips2012slice").hide();
+        $("#nips2012slice_link").click(function(){
+          $("#nips2012slice").slideToggle(animDur);
+        });
+        $("#pnas2012").hide();
+        $("#pnas2012_link").click(function(){
+          $("#pnas2012").slideToggle(animDur);
+        });
+        $("#plosone2011").hide();
+        $("#plosone2011_link").click(function(){
+          $("#plosone2011").slideToggle(animDur);
+        });
+   });
+</script>
+
+</div>
+</div>
+
+
+</div> <!-- inner-fluid clearfix -->
+</div> <!-- row-fluid -->
+
+
+
+    </div> <!-- /container -->
+
+    
+                    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/media/js/libs/jquery-1.10.1.min.js">\x3C/script>')</script>
+    
+        <script src="/media/js/libs/bootstrap.min.js"></script>
+        
+        
+
+    <!--[if lt IE 7 ]>
+      <script src="/media/js/libs/dd_belatedpng.js"></script>
+      <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <![endif]-->
+
+
+
+      </body>
+</html>
