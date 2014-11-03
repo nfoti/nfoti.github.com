@@ -95,7 +95,30 @@
             <h3>2013</h3>
             <div class="yr-text">
               <ul>
-                  <li>N. Foti, J. Futoma, D. Rockmore, and S. Williamson.  
+                  <li>N.Foti, S. Pauls and D. N. Rockmore.
+                  <span style="font-weight:bold;">Stability of the World Trade
+                      Web over time - An extinction analysis</span>
+                  Journal of Economic Dynamics and Control, Vol. 37, No. 9,
+                  2013.
+                  <a id="wtwjedc_link">[bibtex]</a>
+                  <div class="alert" id="wtwjedc" style="display:none">
+                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                      <span style="font-family:'Courier New';color:#222222;line-height:0.5">
+                      <p>
+                        @article{Foti:Pauls:Rockmore:2013,<br/>
+                        title={Stability of the World Trade Web over time - An
+                        extinction analysis.},<br/>
+                        author={Foti, N. J. and Pauls, S., and Rockmore, D.N.},<br/>
+                        journal={Journal of Economic Dynamics and Control},<br/>
+                        volume={37},<br/>
+                        number={90},<br/>
+                        year={2013} <br/>
+                        }
+                      </p>
+                     </span>
+                  </div>
+
+                  <li>N. Foti, J. D. Futoma, D. N. Rockmore, and S. Williamson.  
                   <span style="font-weight:bold;">A unifying representation 
                   for a class of dependent random measures</span>.  
                   Artificial Intelligence and Statistics 
@@ -109,7 +132,7 @@
                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                       <span style="font-family:'Courier New';color:#222222;line-height:0.5">
                       <p>
-                          @incollection{Foti:Futoma:Williamson:Rockmore:2012,<br/>
+                          @incollection{Foti:Fuoma:Williamson:Rockmore:2012,<br/>
                       title = {A unifying representation for a class of
                       dependent random measures},<br/>
                       author = {Nicholas J. Foti and Joseph D. Futoma and
@@ -119,13 +142,13 @@
                       }
                       </p>
                      </span>
+                  </div>
               </ul>
-            </div>
 
             <h3>2012</h3>
             <div class="yr-text">
               <ul>
-                <li>N. Foti, and S. Williamson.  <span 
+                <li>N. Foti and S. Williamson.  <span 
                   style="font-weight:bold;">Slice sampling normalized
                   kernel-weighted completely random measure mixture
                   models</span>.  NIPS 2012. 
@@ -152,7 +175,7 @@
                    </span>
                 </div>
                 </li>
-                <li>J.M. Hughes, N. Foti, D.C. Krakauer, and D.N. Rockmore.
+                <li>J. M. Hughes, N. Foti, D.C. Krakauer, and D. N. Rockmore.
                     <span style="font-weight:bold;">Quantitative patterns of stylistic influence in the evolution
                     of literature</span>.  Proceedings of the National Academy of
                     Sciences, Vol. 109, No. 20, 2012.
@@ -184,7 +207,7 @@
             <h3>2011</h3>
             <div class="yr-text">
               <ul>
-                <li>N. Foti, J.M. Hughes, and D.N. Rockmore.  <span
+                <li>N. Foti, J. M. Hughes, and D. N. Rockmore.  <span
                   style="font-weight:bold;">Nonparametric
                   sparsification of complex multiscale networks</span>.  
                   PLoS ONE, Vol.  6, No. 2, 2011.  
@@ -218,7 +241,7 @@
             <h3>Workshop Papers and Posters</h3>
             <div class="yr-text">
               <ul>
-                <li>N. Foti, and S. Williamson.  Slice sampling normalized
+                <li>N. Foti and S. Williamson.  Slice sampling normalized
                   kernel-weighted completely random measure mixture models
                   (2012), Poster.  ICERM Workshop on Bayesian Nonparametrics,
                   Providence, RI.
@@ -227,7 +250,7 @@
                 models (2011), Poster.  8th Workshop on Bayesian
                 Nonparametrics, Veracruz, Mexico.
                 </li>
-                <li>N. Foti, D.N. Rockmore, S. Pauls, and T. Kastelle (2009).
+                <li>N. Foti, D. N. Rockmore, S. Pauls, and T. Kastelle (2009).
                   A longitudinal analysis of the World Trade Web.  15th
                   International Conference on Computing in Economics and Finance,
                   Sydney, Australia.
@@ -259,6 +282,10 @@
             });
 
             // bibtex entries
+            $("#wtwjedc").hide();
+            $("#wtwjedc_link").click(function(){
+              $("#wtwjedc").slideToggle(animDur);
+            });
             $("#aistats2013thin").hide();
             $("#aistats2013thin_link").click(function(){
               $("#aistats2013thin").slideToggle(animDur);
