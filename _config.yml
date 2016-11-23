@@ -24,6 +24,8 @@ keybase-in-social: true
 keybase-username: nfoti
 
 social:
+  - title: "twitter"
+    url: "https://twitter.com/nickfoti_"
   - title: "github"
     url: "https://github.com/nfoti"
   - title: "bitbucket"
