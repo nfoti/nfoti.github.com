@@ -1,6 +1,6 @@
 
 - title: "Home"
-  url: "#page-top"
+  url: "/"
 
 - title: "Publications"
-  url: "#publications"
+  url: "/publications/"

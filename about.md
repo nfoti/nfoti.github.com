@@ -1,6 +1,5 @@
 ---
 layout: null
-id: about
 title: about
 ---
 
