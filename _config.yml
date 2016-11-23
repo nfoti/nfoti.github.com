@@ -1,0 +1,47 @@
+###########
+# site.url, site.title
+
+title: 'Nick Foti'
+
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: 
+url:  'http://henrythemes.github.io/jekyll-bootstrap-theme'
+
+me-img: "/img/foti_self_200x200.jpg"
+departments: ["Department of Statistics",
+              "Institute for Learning and Brain Sciences"]
+institution: "University of Washington"
+
+blog-in-social: false
+blog-url: ""
+
+email-in-social: true
+email: "nfoti at uw dot edu"
+
+keybase-in-social: true
+keybase-username: nfoti
+
+social:
+  - title: "github"
+    url: "https://github.com/nfoti"
+  - title: "bitbucket"
+    url: "https://bitbucket.org/nfoti"
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+
+safe: true
+lsi: false
+

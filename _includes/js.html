@@ -1,0 +1,15 @@
+
+<script>
+// set nav item to "active" after click
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
+$(".navbar-brand").on("click", function(){
+   console.log("hello there");
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
+</script>

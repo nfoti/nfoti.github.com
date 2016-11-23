@@ -1,0 +1,50 @@
+---
+layout: default
+title:  'Home'
+---
+
+<div class="hidden-xs col-sm-2 col-md-2">
+</div>
+<div class="col-xs-12 col-sm-9 col-md-9">
+    <div class="row" id="" style="">
+      <div id="me" class="banner" style="display:inline-block;">
+        <img class="img-me pull-left" src="{{ site.baseurl }}{{ site.me-img }}" alt="" style="border: 0px solid #fff;">
+      </div>
+      <div id="personal" class="banner" style="display:inline-block;">
+        <h1>Nick Foti</h1>
+        <p class="lead">
+        {% for dep in site.departments %}
+        {{ dep }}<br>
+        {% endfor %}
+        {{ site.institution }}<br>
+        {% include social_buttons.html %}
+        </p>
+      </div>
+
+      <hr>
+
+      {% for page in site.pages %}
+      {% if page.title == 'about' %}
+          {{ page.content }}
+      {% endif %}
+      {% endfor %}
+
+    </div>
+
+    {% for page in site.pages %}
+    {% if page.title != 'about' and page.layout == 'section' %}
+      <div class="row section" id="{{ page.id }}" style="">
+        {{ page.content }}
+      </div>
+    {% endif %}
+    {% endfor %}
+
+
+  <div class="row section" id="publications" style="height: 5000px;">
+      <h2>Pubs</h2>
+      <p> This is space for my pubs</p>
+      <p> There will hopefully be a lot of them.</p>
+  </div>
+  
+
+</div>

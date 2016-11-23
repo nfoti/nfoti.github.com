@@ -1,0 +1,57 @@
+
+
+
+.pull-left {
+  float:left;
+}
+
+.pull-right {
+  float:right;
+}
+
+.img-me {
+    z-index: 100;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    margin: 20px 20px 20px 0;
+    border: 7px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+}
+
+.lead {
+    font-size: 18px;
+
+    // xs < 768
+    @media screen and (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+.banner {
+    margin:auto;
+    vertical-align:middle;
+}
+
+.section {
+    padding-top: 75px;
+}
+
+// _variables.scss for these values
+//.navbar-inverse {
+//    background-color: $nav-bar-bg;
+//    border-color: $nav-bar-bg;
+//
+//    // customize {{ site.name }}
+//    .navbar-brand {
+//        color:       $nav-bar-txt;
+//    }
+//
+//    // customize nav entries
+//    .navbar-nav>li>a {
+//        color:       $nav-bar-item-txt;
+//    }
+//}

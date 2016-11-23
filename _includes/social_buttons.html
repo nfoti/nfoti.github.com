@@ -1,0 +1,18 @@
+<!-- Social Buttons Start -->
+
+    {% if site.email-in-social %}
+    <a href="mailto:{{ site.email }}">
+      <i class="fa fa-envelope-o fa-lg"></i>
+    </a>
+    {% endif %}
+    {% for network in site.social %}
+    <a href="{{ network.url }}" target="_blank" class="icon"><i class="fa fa-{{ network.title }} fa-lg"></i></a>
+    {% endfor %}
+    {% if site.keybase-in-social %}
+    <a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i class="fa fa-key fa-lg"></i></a>
+    {% endif %}
+    {% if site.blog-in-social %}
+    <a href="{{ site.blog-url }}" target="_blank" class="icon">blog </a>
+    {% endif %}
+
+<!-- Social Buttons End -->
