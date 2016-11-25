@@ -35,6 +35,10 @@ social:
 ########
 # more settings
 
+gems:
+  - 'jekyll-scholar'
+  - 'jekyll-paginate'
+
 markdown: kramdown
 
 sass:
@@ -47,3 +51,35 @@ exclude:
 safe: true
 lsi: false
 
+paginate: 10
+
+#######
+# plugins
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
