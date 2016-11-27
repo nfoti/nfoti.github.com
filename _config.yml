@@ -38,6 +38,7 @@ social:
 gems:
   - 'jekyll-scholar'
   - 'jekyll-paginate'
+  - 'jekyll-gist'
 
 markdown: kramdown
 
