@@ -28,7 +28,7 @@ title: Blog
 	   {% endfor %}
 	   {% endif %}
 	   <br>
-	   {{ post.content | strip_html | truncatewords:100}}<br>
+	   {{ post.content | truncatewords:100}}<br>
        <a href="{{ post.url }}">Read more...</a><br><br>
       </li>
     {% if forloop.last %}</ul>{% endif %}
