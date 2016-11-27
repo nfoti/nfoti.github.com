@@ -3,10 +3,10 @@ layout: default
 title:  'Home'
 ---
 
-<div class="hidden-xs col-sm-2 col-md-2">
-</div>
-<div class="col-xs-12 col-sm-9 col-md-9" markdown="1">
+{% include column_layout_start.html %}
+
   <div class="row" id="" style="">
+
     <div id="me" class="banner" style="display:inline-block;">
       <img class="img-me pull-left" src="{{ site.baseurl }}{{ site.me-img }}" alt="" style="border: 0px solid #fff;">
     </div>
@@ -31,5 +31,4 @@ title:  'Home'
     {% endif %}
   {% endfor %}
 
-  </div>
-</div>
+{% include column_layout_end.html %}
