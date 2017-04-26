@@ -28,7 +28,7 @@ title: Blog
 	   {% endfor %}
 	   {% endif %}
 	   <br>
-       {{ post.excerpt | remove: '<p> | remove: '</p>'}}<br>
+       {{ post.excerpt | remove: '<p>' | remove: '</p>'}}<br>
        <a href="{{ post.url }}">Read more...</a><br><br>
       </li>
     {% if forloop.last %}</ul>{% endif %}
