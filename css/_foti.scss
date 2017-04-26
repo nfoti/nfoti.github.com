@@ -23,11 +23,11 @@
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 22px;
 
     // xs < 768
     @media screen and (max-width: 767px) {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
@@ -63,3 +63,19 @@
 //        color:       $nav-bar-item-txt;
 //    }
 //}
+
+.intro {
+  font-size: 18px;
+}
+
+.pubs {
+  font-size: 18px;
+}
+
+.pubs li {
+  padding-bottom: 1em;
+}
+
+.pubs ul {
+  list-style-type: none;
+}
