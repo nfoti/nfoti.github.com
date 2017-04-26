@@ -27,8 +27,12 @@ title:  'Home'
 
   {% for pg in site.pages %}
     {% if pg.title == 'about' %}
+    <div class="intro">
       {{ pg.content }}
+    </div>
     {% endif %}
   {% endfor %}
+
+  </div>
 
 {% include column_layout_end.html %}
