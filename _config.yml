@@ -72,7 +72,7 @@ scholar:
   group_order: ascending
 
   source: ./_bibliography
-  bibliography: foti.bib
+  bibliography: foti_cv.bib
   bibliography_template: "{{reference}}"
 
   replace_strings: true
