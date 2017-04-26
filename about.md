@@ -18,7 +18,9 @@ Bayesian nonparametric methods as well as sparse models for high-dimensional
 data. Additionally, I am interested in developing scalable inference algorithms
 for complex models of large data sets.
 
-I received my PhD in computer science at Dartmouth College. My advisor was [Dan
+I received my PhD from the Computer Science Department at Dartmouth College.
+My advisor was [Dan
 Rockmore](http://www.cs.dartmouth.edu/~rockmore). I worked closely with [Sinead
 Williamson](http://sinead.github.io/) on dependent Bayesian nonparametric
 models and efficient MCMC algorithms for them.
+
