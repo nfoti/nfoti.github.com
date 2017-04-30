@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   <meta charset="utf-8">
+   <title>Nick Foti</title>
+
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+   
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+
+   <!-- mathjax configuration and loading -->
+   <script type="text/x-mathjax-config">
+	 MathJax.Hub.Config({
+	   tex2jax: {
+	     inlineMath: [['$','$'], ['\\(','\\)']],
+	     processEscapes: true
+	   }
+	 });
+   </script>
+   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+   
+   <!-- load personalized css after everything else to override -->
+   <link rel="stylesheet" type="text/css" href="nfoti.github.io/css/style.css" >
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="-150">
+
+  
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="/">
+          <i class="fa fa-terminal" aria-hidden="true" style="color:$nav-bar-item-txt"></i>
+          Nick Foti
+        </a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <!-- hidden li to remove active class from 'about' link when scrolled
+              to top -->
+          <li class=hidden>
+            <a class="page-scroll" href="/"></a>
+          </li>
+          
+          <li>
+            <a class="page-scroll" href="/">Home</a>
+          </li>
+          
+          <li>
+            <a class="page-scroll" href="/publications/">Publications</a>
+          </li>
+          
+          <li>
+            <a class="page-scroll" href="/blog/">Blog</a>
+          </li>
+          
+
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+  <div class="container">
+    <div class="content">
+      
+<div class="hidden-xs col-sm-2 col-md-2"></div>
+<div class="col-xs-12 col-sm-9 col-md-9">
+  <div class="row" style="">
+
+    <div class="pubs">
+
+      <h2 id="submitted-and-in-preparation">Submitted and In Preparation</h2>
+
+      <ul>
+        <li><span id="miller:foti:adams:2017:vboost">Miller, A. C., <strong>Foti, N. J.</strong>, &amp; Adams, R. P. (2017). Variational boosting: Iteratively refining posterior approximations, Submitted to ICML.</span></li>
+        <li><span id="ma:foti:fox:2017:sgmcmchmm">Ma, Y., <strong>Foti, N. J.</strong>, &amp; Fox, E. B. (2017). Stochastic gradient MCMC methods for hidden Markov models, Submitted to ICML.</span></li>
+        <li><span id="nadkarni:foti:lee:fox:lvsglasso">Nadkarni, R., <strong>Foti, N. J.</strong>, Lee, A. K. C., &amp; Fox, E. B. (2017). Sparse plus low-rank graphical models of time series to infer functional connectivity from MEG recordings, Submitted to UAI.</span></li>
+        <li><span id="miller:foti:damour:adams:reducegv">Miller, A. C., <strong>Foti, N. J.</strong>, D’Amour, A., &amp; Adams, R. P. Reducing reparameterization gradient variance for Monte Carlo variational inference, In Preparation.</span></li>
+      </ul>
+
+      <h2 id="refereed-publications">Refereed Publications</h2>
+
+      <!-- &#124 is | which gets rendered b/c of the list below -->
+      <ul>
+        <li><span id="tank:foti:fox:2015:structure">Tank, A., <strong>Foti, N. J.</strong>, &amp; Fox, E. B. (2015). Bayesian structure learning for stationary time series. In <i>Uncertainty in Artificial Intelligence (UAI)</i>.</span> <!--<br/>[github]() &#124; [paper]()--></li>
+        <li><span id="tank:foti:fox:2015:streaming">Tank, A., <strong>Foti, N. J.</strong>, &amp; Fox, E. B. (2015). Streaming variational inference for Bayesian nonparametric
+      mixture models. In <i>Artificial Intelligence and Statistics (AISTATS)</i>.</span> <!-- <br/>[github]() &#124; [paper]()--></li>
+        <li><span id="foti:xu:laird:fox:svihmm"><strong>Foti, N. J.</strong>, Xu, J., Laird, D., &amp; Fox, E. B. (2014). Stochastic variational inference for hidden Markov models. In <i>Neural Information Processing Systems (NIPS)</i>.</span> <!--<br/>[github]() &#124; [paper]()--></li>
+        <li><span id="foti:williamson:2014:survey"><strong>Foti, N. J.</strong>, &amp; Williamson, S. A. (2015). A survey of non-exchangeable priors for Bayesian nonparametric
+      models. <i>IEEE Pattern Analysis and Machine Intelligence Special Issue On
+      Bayesian Nonparametrics</i>.</span></li>
+        <li><span id="caccioli:foti:rockmore:farmer:2014:overlapping">Caccioli, F., <strong>Foti, N. J.</strong>, Rockmore, D. N., &amp; Farmer, J. D. (2015). Overlapping portfolios, contagion, and financial stability. <i>Journal of Economic Dynamics and Control</i>, <i>51</i>, 50–63.</span></li>
+        <li><span id="ginsburg:foti:rockmore:preambles">Ginsburg, T., <strong>Foti, N. J.</strong>, &amp; Rockmore, D. N. (2015). “We the peoples”: The global original of constitutional
+      preambles. <i>The George Washington International Law Review</i>, <i>46</i>(2).</span></li>
+        <li><span id="foti:pauls:rockmore:2013:stability"><strong>Foti, N. J.</strong>, Pauls, S., &amp; Rockmore, D. N. (2013). Stability of the World Trade Web over time - An extinction
+      analysis. <i>Journal of Economic Dynamics and Control</i>.</span></li>
+        <li><span id="foti:futoma:rockmore:williamson:2013:tcrm"><strong>Foti, N. J.</strong>, Futoma, J. D., Rockmore, D. N., &amp; Williamson, S. A. (2013). A unifying representation for a class of dependent random
+      measures. In <i>Artificial Intelligence and Statistics (AISTATS)</i>.</span> <strong>Notable Paper Award</strong></li>
+        <li><span id="foti:williamson:2012:slice"><strong>Foti, N. J.</strong>, &amp; Williamson, S. A. (2012). Slice sampling normalized kernel-weighted completely random
+      measure mixture models. In <i>Neural Information Processing Systems (NIPS)</i>.</span></li>
+        <li><span id="hughes:foti:krakauer:rockmore:2012:style">Hughes, J. M., <strong>Foti, N. J.</strong>, Krakauer, D. C., &amp; Rockmore, D. N. (2012). Quantitative patterns of stylistic influence in the evolution of
+      literature. <i>Proceedings of the National Academy of Sciences</i>, <i>109</i>(20).</span></li>
+        <li><span id="foti:hughes:rockmore:2011:backbone"><strong>Foti, N. J.</strong>, Hughes, J. M., &amp; Rockmore, D. N. (2011). Nonparametric sparsification of complex multiscale networks. <i>PLoS ONE</i>, <i>6</i>(2).</span></li>
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+  </div><!-- /.container -->
+
+  
+<script>
+// set nav item to "active" after click
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
+$(".navbar-brand").on("click", function(){
+   console.log("hello there");
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
+</script>
+
+
+</body>
+</html>
