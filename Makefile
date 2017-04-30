@@ -27,3 +27,11 @@ serve: website
 serve-drafts: website-drafts
 	bundle exec jekyll serve --drafts --verbose --skip-initial-build
 
+deploy: website
+	# assumes that you've already committed new site
+	git checkout source
+	git branch -D master
+	git checkout -b master
+	git filter-branch --subdirectory-filter _site/ -f
+	git push --force origin master
+	git checkout source
