@@ -52,6 +52,10 @@ sass:
 
 exclude:
 - README.md
+- Makefile
+- new_post.sh
+- Gemfile
+- Gemfile.lock
 
 safe: true
 lsi: false

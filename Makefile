@@ -12,7 +12,6 @@ website:
 	cd _pandoc; python convert-pandoc-refs-to-liquid.py
 	bundle exec jekyll build --verbose
 	cd _pandoc; python boldify-my-name-site.py
-	cd _site; rm Makefile; rm new_post.sh
 
 website-drafts:
 	cd _pandoc; python convert-pandoc-refs-to-liquid.py
