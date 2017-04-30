@@ -4,7 +4,7 @@ title: about
 ---
 
 I am a Washington Research Foundation Innovation Postdoctoral Fellow in
-Neuroengineering and Data Science at the University of Washingtion, jointly
+Neuroengineering and Data Science at the University of Washington, jointly
 sponsored by the [Institute for Neuroengineering](http://uwin.washington.edu)
 and the [eScience Institute](http://escience.washington.edu). I work with
 [Emily Fox](http://www.stat.washington.edu/~ebfox/) in the Department of
