@@ -6,8 +6,8 @@ title: 'Nick Foti'
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: 
-url:  'http://henrythemes.github.io/jekyll-bootstrap-theme'
+path: 'nfoti.github.io'
+url:  'http://nfoti.github.io'
 
 me-img: "/img/foti_self_200x200.jpg"
 departments: ["Department of Statistics",
