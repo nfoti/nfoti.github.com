@@ -9,14 +9,14 @@ title: publications
 
 ## Submitted and In Preparation
 
-- [@miller:foti:adams:2017:vboost]
-- [@ma:foti:fox:2017:sgmcmchmm]
 - [@nadkarni:foti:lee:fox:lvsglasso]
 - [@miller:foti:damour:adams:reducegv]
 
 ## Refereed Publications
 
 <!-- &#124 is | which gets rendered b/c of the list below -->
+- [@miller:foti:adams:2017:vboost]
+- [@ma:foti:fox:2017:sgmcmchmm]
 - [@tank:foti:fox:2015:structure] <!--<br/>[github]() &#124; [paper]()-->
 - [@tank:foti:fox:2015:streaming] <!-- <br/>[github]() &#124; [paper]()-->
 - [@foti:xu:laird:fox:svihmm] <!--<br/>[github]() &#124; [paper]()-->
