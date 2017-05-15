@@ -9,14 +9,14 @@ title: publications
 
 ## Submitted and In Preparation
 
-- {% reference miller:foti:adams:2017:vboost %}
-- {% reference ma:foti:fox:2017:sgmcmchmm %}
 - {% reference nadkarni:foti:lee:fox:lvsglasso %}
 - {% reference miller:foti:damour:adams:reducegv %}
 
 ## Refereed Publications
 
 <!-- &#124 is | which gets rendered b/c of the list below -->
+- {% reference miller:foti:adams:2017:vboost %}
+- {% reference ma:foti:fox:2017:sgmcmchmm %}
 - {% reference tank:foti:fox:2015:structure %} <!--<br/>[github]() &#124; [paper]()-->
 - {% reference tank:foti:fox:2015:streaming %} <!-- <br/>[github]() &#124; [paper]()-->
 - {% reference foti:xu:laird:fox:svihmm %} <!--<br/>[github]() &#124; [paper]()-->
