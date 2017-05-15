@@ -30,7 +30,7 @@ serve-drafts: website-drafts
 deploy: website
 	# assumes that you've already committed new site
 	git checkout source
-	git branch -D master
+	git branch -D master &>/dev/null
 	git checkout -b master
 	git filter-branch --subdirectory-filter _site/ -f
 	git push --force origin master
