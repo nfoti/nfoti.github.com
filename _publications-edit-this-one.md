@@ -10,9 +10,6 @@ title: publications
 ## Submitted and In Preparation
 
 - [@nadkarni:foti:lee:fox:lvsglasso]
-<!--
-- [@miller:foti:damour:adams:reducegv]
--->
 
 ## Refereed Publications
 
