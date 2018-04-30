@@ -9,7 +9,10 @@ title: publications
 
 ## Submitted and In Preparation
 
-- [@nadkarni:foti:lee:fox:lvsglasso]
+- [@ainsworth:foti:fox:2017]
+- [@covert:tank:foti:shojaie:fox:2017]
+
+<!-- - [@nadkarni:foti:lee:fox:lvsglasso] -->
 
 ## Refereed Publications
 
