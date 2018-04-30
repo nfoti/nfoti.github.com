@@ -10,7 +10,7 @@ title: publications
 ## Submitted and In Preparation
 
 - [@ainsworth:foti:fox:2017]
-- [@covert:tank:foti:shojaie:fox:2017]
+- [@tank:covert:foti:shojaie:fox:2017]
 
 <!-- - [@nadkarni:foti:lee:fox:lvsglasso] -->
 
