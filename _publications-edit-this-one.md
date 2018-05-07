@@ -17,6 +17,7 @@ title: publications
 ## Refereed Publications
 
 <!-- &#124 is | which gets rendered b/c of the list below -->
+- [@foti:fox:comment:2018]
 - [@miller:foti:damour:adams:reducegv]
 - [@miller:foti:adams:2017:vboost]
 - [@ma:foti:fox:2017:sgmcmchmm]
