@@ -9,7 +9,6 @@ title: publications
 
 ## Submitted and In Preparation
 
-- {% reference ainsworth:foti:fox:2017 %}
 - {% reference tank:covert:foti:shojaie:fox:2017 %}
 
 <!-- - {% reference nadkarni:foti:lee:fox:lvsglasso %} -->
@@ -17,6 +16,7 @@ title: publications
 ## Refereed Publications
 
 <!-- &#124 is | which gets rendered b/c of the list below -->
+- {% reference ainsworth:foti:fox:2017 %}
 - {% reference foti:fox:comment:2018 %}
 - {% reference miller:foti:damour:adams:reducegv %}
 - {% reference miller:foti:adams:2017:vboost %}
