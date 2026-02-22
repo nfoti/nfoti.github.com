@@ -1,207 +1,333 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick Foti</title>
 
-  <head>
-   <meta charset="utf-8">
-   <title>Nick Foti</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-   <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   
-   <!-- jQuery library -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-   
-   <!-- Latest compiled JavaScript -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   
-   <!-- font-awesome -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+<style>
+:root {
+    --accent: rgb(187, 164, 117);
+    --text: #222;
+    --light-text: #666;
+    --background: #FAF9F7;
+    --card-bg: #FFFFFF;
+    --border: #E6E3DF;
+    --max-width: 920px;
+}
 
-   <!-- mathjax configuration and loading -->
-   <script type="text/x-mathjax-config">
-	 MathJax.Hub.Config({
-	   tex2jax: {
-	     inlineMath: [['$','$'], ['\\(','\\)']],
-	     processEscapes: true
-	   }
-	 });
-   </script>
-   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-   
-   <!-- load personalized css after everything else to override -->
-   <link rel="stylesheet" type="text/css" href="/css/style.css" >
+* { box-sizing: border-box; }
 
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.65;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--accent);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.1rem;
+}
+
+.subtitle {
+    color: var(--light-text);
+    margin-top: 0.3rem;
+}
+
+.top-links {
+    margin-top: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 0.6rem;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background: var(--accent);
+    color: white;
+}
+
+nav {
+    margin-top: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 1.2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--accent);
+    padding-left: 0.75rem;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.publication {
+    margin-bottom: 1.8rem;
+}
+
+.pub-title { font-weight: 600; }
+
+.pub-authors {
+    color: var(--light-text);
+    font-size: 0.95rem;
+}
+
+.pub-venue {
+    font-size: 0.95rem;
+}
+
+.abstract, .bibtex {
+    display: none;
+    margin-top: 0.6rem;
+    padding: 0.8rem;
+    background: #F5F3F1;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+button.pub-button {
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 0.8rem;
+    padding: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: 0.85rem;
+}
+
+footer {
+    text-align: center;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    margin-top: 4rem;
+}
+
+@media (max-width: 750px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+</style>
 </head>
 
+<body>
+<div class="container">
 
-<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="-150">
+<header>
+    <img src="foti_self_200x200.jpg" alt="Nicholas Foti" class="profile-img">
+    <div>
+        <h1>Nick Foti</h1>
+        <div class="subtitle">Principal Research Scientist | Apple</div>
 
-  
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="/">
-          <i class="fa fa-terminal" aria-hidden="true" style="color:$nav-bar-item-txt"></i>
-          Nick Foti
-        </a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <!-- hidden li to remove active class from 'about' link when scrolled
-              to top -->
-          <li class=hidden>
-            <a class="page-scroll" href="/"></a>
-          </li>
-          
-          <li>
-            <a class="page-scroll" href="/">Home</a>
-          </li>
-          
-          <li>
-            <a class="page-scroll" href="/publications.html">Publications</a>
-          </li>
-          
-          <li>
-            <a class="page-scroll" href="/blog.html">Blog</a>
-          </li>
-          
+        <div class="top-links">
+        </div>
 
-        </ul>
-      </div><!--/.nav-collapse -->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="cv.pdf" target="_blank">CV</a>
+            <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+            <!-- <a href="#software">Software</a> -->
+        </nav>
     </div>
-</nav>
+</header>
 
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>
+        I am a Principal Research Scientist at Apple working on various aspects of machine learning and applications thereof.
+                    </p>
+                    <p>
+Prior to Apple I was at the University of Washington from 2013 -- 2018 where I
+was first a postdoc and then a research scientist. I worked with
+<a href="https://emilybfox.su.domains" target="blank">Emily Fox</a> and
+                        <a href="http://faculty.washington.edu/akclee/" target="blank">Adrian KC Lee</a>
+ on developing machine learning
+models of MEG data to understand dynamic brain connectivity underlying auditory
+attention. During my time at UW I also worked with a number of great students
+on projects related to Bayesian nonparametrics, variational inference and MCMC
+methods, time series analysis, optimization algorithms, and deep latent variable models.
+                    </p>
 
-  <div class="container">
-    <div class="content">
-      
-
-<div class="hidden-xs col-sm-2 col-md-2" markdown="1"></div>
-<div class="col-xs-12 col-sm-9 col-md-9" markdown="1">
-  <div class="row" id="" style="" markdown="1">
-
-
-  <div class="row" id="" style="">
-
-    <div id="me" class="banner" style="display:inline-block;">
-      <img class="img-me pull-left" src="/img/foti_self_200x200.jpg" alt="" style="border: 0px solid #fff;">
+                    <p>
+I received my PhD from the Computer Science Department at Dartmouth College
+where I was advised by
+                        <a href="http://www.cs.dartmouth.edu/~rockmore" target="blank">Dan Rockmore</a>.
+                        I worked on Bayesian nonparametric models and inference algorithms for non-exchangeable data. I also worked on a number of applied projects on economics, law, and literature.
+                    </p>
     </div>
-    <div id="personal" class="banner" style="display:inline-block;">
-      <h1>Nick Foti</h1>
-      <p class="lead">
-      <!--
-      
-      Paul G. Allen School of Computer Science & Engineering<br>
-      
-      Institute for Learning and Brain Sciences<br>
-      
-      University of Washington<br>
-      -->
-      <!-- Social Buttons Start -->
+</section>
 
-    
-    <a href="mailto:nfoti at uw dot edu">
-      <i class="fa fa-envelope-o fa-lg"></i>
-    </a>
-    
-    
-    <a href="https://twitter.com/nickfoti_" target="_blank" class="icon"><i class="fa fa-twitter fa-lg"></i></a>
-    
-    <a href="https://github.com/nfoti" target="_blank" class="icon"><i class="fa fa-github fa-lg"></i></a>
-    
-    <a href="https://bitbucket.org/nfoti" target="_blank" class="icon"><i class="fa fa-bitbucket fa-lg"></i></a>
-    
-    
-    <a href="https://keybase.io/nfoti" target="_blank"><i class="fa fa-key fa-lg"></i></a>
-    
-    
-
-<!-- Social Buttons End -->
-
-      </p>
+<section id="publications">
+    <h2>Publications</h2>
+    <div class="card">
+        <div id="publications-list"></div>
     </div>
-    <hr>
-  </div>
+</section>
 
-  <div class="row" id="" style="">
-
-  
-    
-    <div class="intro">
-      <p>I am a Research Engineer at Apple working on various aspects of machine
-learning.</p>
-
-<p>I also have a part-time position as a Research Scientist at the Paul G. Allen
-School of Computer Science &amp; Engineering at the University of Washington where
-I work with <a href="http://www.stat.washington.edu/~ebfox/">Emily Fox</a> in the
-Department of Statistics and <a href="http://faculty.washington.edu/akclee/">Adrian KC
-Lee</a> in the Institute for Learning and
-Brain Sciences.</p>
-
-<p>My research at UW focuses on developing statistical and machine learning
-methods to learn structure underlying data that arise from processes that
-exhibit complex dependencies such as neuroimaging data. In particular, I am
-interested in Bayesian nonparametric methods as well as sparse models for
-high-dimensional data. Additionally, I work on scalable inference algorithms
-for complex models of large data sets.</p>
-
-<p>Previously, I was a Washington Research Foundation Innovation Postdoctoral
-Fellow in Neuroengineering and Data Science at the University of Washington,
-jointly sponsored by the <a href="http://uwin.washington.edu">Institute for
-Neuroengineering</a> and the <a href="http://escience.washington.edu">eScience
-Institute</a>.</p>
-
-<p>I received my PhD from the Computer Science Department at Dartmouth College
-where I was advised by <a href="http://www.cs.dartmouth.edu/~rockmore">Dan Rockmore</a>.
-While in graduate schoool, I worked closely with <a href="http://sinead.github.io/">Sinead
-Williamson</a> on dependent Bayesian nonparametric
-models and efficient MCMC algorithms for them.</p>
-
-
+<!--
+<section id="software">
+    <h2>Software</h2>
+    <div class="card">
+        <p><strong>LibraryName</strong> – Brief description.
+        <a href="#">GitHub</a></p>
     </div>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
+</section>
+-->
 
-  </div>
-
-
+<footer>
+    © 2026 Nicholas Foti
+</footer>
 
 </div>
-</div>
 
-
-    </div>
-  </div><!-- /.container -->
-
-  
 <script>
-// set nav item to "active" after click
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+const YOUR_NAME = "Nicholas Foti";  // <-- CHANGE THIS
 
-$(".navbar-brand").on("click", function(){
-   console.log("hello there");
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+function toggle(id) {
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === "block" ? "none" : "block";
+}
 
+function buildNamePatterns(fullName) {
+    const parts = fullName.trim().split(/\s+/);
+    const first = parts[0];
+    const last = parts[parts.length - 1];
+
+    // Escape regex characters safely
+    const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    const firstEsc = escape(first);
+    const lastEsc = escape(last);
+
+    return [
+        new RegExp(`\\b${firstEsc}\\s+${lastEsc}\\b`, "gi"),   // Firstname Lastname
+        new RegExp(`\\b${lastEsc}\\s*,\\s*${firstEsc}\\b`, "gi") // Lastname, Firstname
+    ];
+}
+
+const NAME_PATTERNS = buildNamePatterns(YOUR_NAME);
+
+function highlightName(authors) {
+    let result = authors;
+
+    NAME_PATTERNS.forEach(pattern => {
+        result = result.replace(pattern, match => {
+            return `<strong>${match}</strong>`;
+        });
+    });
+
+    return result;
+}
+
+function parseBibtex(text) {
+    const entries = text.split("@").slice(1);
+    return entries.map(entry => {
+        const type = entry.substring(0, entry.indexOf("{")).trim();
+        const body = entry.substring(entry.indexOf("{") + 1);
+        const fields = {};
+        body.split("\n").forEach(line => {
+            const match = line.match(/(\w+)\s*=\s*[{"](.+)[}"],?/);
+            if (match) fields[match[1].toLowerCase()] = match[2];
+        });
+        return { type, ...fields };
+    });
+}
+
+function renderPublications(entries) {
+    const container = document.getElementById("publications-list");
+    container.innerHTML = "";
+
+    entries.forEach((entry, i) => {
+        const key = "pub" + i;
+        const venue = entry.journal || entry.booktitle || "";
+        const authors = highlightName(entry.author || "");
+
+        container.innerHTML += `
+            <div class="publication">
+                <div class="pub-title">${entry.title || ""}</div>
+                <div class="pub-authors">${authors}</div>
+                <div class="pub-venue">${venue} (${entry.year || ""})</div>
+                <div>
+                    ${entry.abstract ? `<button class="pub-button" onclick="toggle('abs${key}')">Abstract</button>` : ""}
+                    <button class="pub-button" onclick="toggle('bib${key}')">BibTeX</button>
+                </div>
+                ${entry.abstract ? `<div id="abs${key}" class="abstract">${entry.abstract}</div>` : ""}
+                <div id="bib${key}" class="bibtex">
+<pre>@${entry.type}{...
+${Object.entries(entry).map(([k,v]) => `  ${k}={${v}},`).join("\n")}
+}</pre>
+                </div>
+            </div>
+        `;
+    });
+}
+
+fetch("publications.bib")
+    .then(res => res.text())
+    .then(text => {
+        let entries = parseBibtex(text);
+
+        // Reverse chronological order
+        entries.sort((a,b) => (b.year || 0) - (a.year || 0));
+
+        renderPublications(entries);
+    });
 </script>
 
 
