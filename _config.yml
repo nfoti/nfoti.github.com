@@ -10,26 +10,21 @@ path:
 url:  'http://nfoti.github.io'
 
 me-img: "/img/foti_self_200x200.jpg"
-departments: ["Paul G. Allen School of Computer Science & Engineering",
-              "Institute for Learning and Brain Sciences"]
-institution: "University of Washington"
+departments: []
+institution: ""
 
 blog-in-social: false
 blog-url: ""
 
-email-in-social: true
+email-in-social: false
 email: "nfoti at uw dot edu"
 
-keybase-in-social: true
+keybase-in-social: false
 keybase-username: nfoti
 
 social:
-  - title: "twitter"
-    url: "https://twitter.com/nickfoti_"
   - title: "github"
     url: "https://github.com/nfoti"
-  - title: "bitbucket"
-    url: "https://bitbucket.org/nfoti"
 
 
 ########
